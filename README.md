@@ -4,17 +4,12 @@ HEART DISEASE PREDICTION USING RANDOM FOREST ALGORITHM
 TEAM PROJECT
 
 TEAM MEMBERS:
-1.K VENKATA KISHORE          (20B21A4237)
-
-2.K PRAPURNA                 (20JN1A4313)
-
-3.M PRAVIGNA SURYA SHIAVANI  (20B21A4209)
-
-4.K EASWAR RAO               (20B21A4546)
-
-5.B HEMASRI                  (20JN1A4328)
-
-6.CH SHIREESH                (20B21A4205)
+1. K VENKATA KISHORE          (20B21A4237)
+2. K PRAPURNA                 (20JN1A4313)
+3. M PRAVIGNA SURYA SHIAVANI  (20B21A4209)
+4. K EASWAR RAO               (20B21A4546)
+5. B HEMASRI                  (20JN1A4328)
+6. CH SHIREESH                (20B21A4205)
 
 Dataset source ([link](https://archive.ics.uci.edu/ml/datasets/Heart+Disease))
 
@@ -34,7 +29,7 @@ Dataset source ([link](https://archive.ics.uci.edu/ml/datasets/Heart+Disease))
 
 
 >operations on:
-heart disease conditions csv data
+ heart disease conditions csv data
 
 
 > Dataset Creators: 
