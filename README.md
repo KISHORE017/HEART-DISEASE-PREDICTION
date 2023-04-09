@@ -19,17 +19,18 @@ TEAM MEMBERS:
 Dataset source ([link](https://archive.ics.uci.edu/ml/datasets/Heart+Disease))
 
 >program technologies:
-1.MACHINE LEARNING
-2.FLASK
-3.html
-4.css
+
+1. MACHINE LEARNING
+2. FLASK
+3. html
+4. css
 
 >machine learning algorithms used:
-numpy
-pandas
-matplotlib
-seaborn
-sklearn
+1. numpy
+2. pandas
+3. matplotlib
+4. seaborn
+5. sklearn
 
 
 >operations on:
