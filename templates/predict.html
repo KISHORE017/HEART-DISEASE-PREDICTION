@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <form action="{{ url_for('predict')}}" method="post"></form>
+        <h1 class='header'><span class="header_font">YOUR RESULT</span>
+
+        </h1>
+        <div class="results">
+            {% if prediction==1 %}
+            <h1><span class='danger' id="danger">sorry<br></span></h1>
+            <h1>YOU HAVE HEART DISEASE.</h1>
+            <br>
+            <h4>since you have any disease</h4>
+            <h4>HERE ARE SOME PRECAUTIONS TO FOLLOW</h4>
+            <center>
+                <form action="/hdy" method="POST">
+
+                    <button type="submit" id="nextbtnn">CHECK PRECAUTIONS</button></a>
+                </form>
+            </center>
+
+
+
+
+
+            {% elif prediction==0 %}
+            <h1><span class='safe' id="safe">Congratulation!<br><br></span></h1>
+            <h1> YOU DON'T HAVE HEART DISEASE.</h1>
+
+            <br>
+            <h4>since you don't have any disease</h4>
+            <h4>HERE ARE SOME PREVENTION STEPS</h4>
+            <center>
+                <form action="/hdn" method="POST">
+
+                    <button type="submit" id="nextbtn">CHECK PREVENTIONS</button></a>
+                </form>
+            </center>
+
+
+            {% endif %}
+        </div>
+        </form>
+
+
+
+        <footer class='footer'>
+            <p></p>
+        </footer>
+
+
+        <style>
+            .header {
+                padding: 30px;
+                text-align: center;
+                background: #000000;
+                color: white;
+                font-size: 30px;
+                width: 100%;
+                margin: -8px;
+            }
+            
+            body {
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                overflow-x: hidden;
+            }
+            
+            #danger {
+                color: red;
+            }
+            
+            #safe {
+                color: green;
+            }
+            
+            #nextbtn {
+                background-color: #17989b;
+                color: rgb(0, 0, 0);
+                padding: 10px 15px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 14px;
+                cursor: pointer;
+                width: 20%;
+                opacity: 0.9;
+            }
+            
+            #nextbtnn {
+                background-color: #17989b;
+                color: rgb(0, 0, 0);
+                padding: 10px 15px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 14px;
+                cursor: pointer;
+                width: 20%;
+                opacity: 0.9;
+            }
+        </style>
+
+</body>
+
+</html>
