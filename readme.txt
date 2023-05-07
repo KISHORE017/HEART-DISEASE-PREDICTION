@@ -9,20 +9,10 @@ TEAM MEMBERS:
 5.B HEMASRI                  (20JN1A4328)
 6.CH SHIREESH                (20B21A4205)
 
---> Heart Disease prediction using  RANDOM FOREST ALGORITHM.
-
--->Dataset source ([link](https://archive.ics.uci.edu/ml/datasets/Heart+Disease))
-
---> Dataset Creators: 
-1. Hungarian Institute of Cardiology. Budapest: Andras Janosi, M.D. 
-2. University Hospital, Zurich, Switzerland: William Steinbrunn, M.D. 
-3. University Hospital, Basel, Switzerland: Matthias Pfisterer, M.D. 
-4. V.A. Medical Center, Long Beach and Cleveland Clinic Foundation: Robert Detrano, M.D., Ph.D. 
-
 
 
 -->project information...
-predicting the heart disease prediction using using random forest algorithm
+Heart disease prediction using using random forest algorithm
 
 
 -->program technologies:
@@ -30,7 +20,6 @@ predicting the heart disease prediction using using random forest algorithm
 2.FLASK
 3.html
 4.css
-
 
 -->machine learning algorithms used:
 numpy
